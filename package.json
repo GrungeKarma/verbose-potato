@@ -6,7 +6,8 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "start": "lerna run start --stream",
+    "server-start": "lerna run server-start --stream",
+    "web-start": "lerna run web-start --stream",
     "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff"

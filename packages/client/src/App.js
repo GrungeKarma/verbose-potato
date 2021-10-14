@@ -1,13 +1,16 @@
 
 import './App.css';
-import env from 'react-dotenv';
+import LinkInput from './components/LinkInput';
+
 
 function App() {
 
-  console.log(env.SECRET_MESSAGE)
-  console.log(env.SECOND_SECRET);
+
   return (
-    <h1>hello</h1>
+    <>
+      <h1>makerClerk</h1>
+      <LinkInput></LinkInput>
+    </>
   )
 }
 
